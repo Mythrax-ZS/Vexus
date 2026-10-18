@@ -1,0 +1,5 @@
+# Keep line endings stable no matter what core.autocrlf the contributor has.
+* text=auto eol=lf
+
+*.png binary
+*.ico binary

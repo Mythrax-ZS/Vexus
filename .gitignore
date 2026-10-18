@@ -1,0 +1,23 @@
+# Build output
+/target/
+/dist/
+*.pdb
+
+# Local tooling
+/.tools/
+/.claude/settings.local.json
+
+# Tauri
+/src-tauri/gen/
+/src-tauri/WixTools/
+
+# Editors / OS
+.vs/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Local sandbox profiles and logs created while developing
+/sandbox/
+*.log
