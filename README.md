@@ -15,6 +15,8 @@ Vexus finds the junk Windows and your apps leave behind, tells you exactly what 
 * **Light.** The release app is ~6 MB; the installers are 2–3 MB. No Node, no Electron, no bundler.
 * **Fast.** On the development PC a real scan of ≈90,000 entries took 0.2–1 s, and a synthetic 100,000-file plan scanned in 40–450 ms (warm/cold cache) and was cleaned in 2–4 s — roughly 25,000–40,000 files/s depending on the disk, each one re-verified through a handle. Paging, searching and sorting those 100,000 items takes single-digit milliseconds. Results stream in as each category finishes.
 
+**Download:** installers and a portable zip are on the [Releases page](https://github.com/Mythrax-ZS/Vexus/releases/latest). They are not code-signed yet, so Windows SmartScreen may ask you to confirm the first run.
+
 > **Status: v0.1 — the first slice.** The engine, the safety model, the scanner/cleaner/undo and the full desktop shell are done and tested. Browser cleaning, the disk analyzer, startup manager and optimizer are next (see the [roadmap](#roadmap)); they are not in this build.
 
 ## What works today
